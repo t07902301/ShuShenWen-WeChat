@@ -1,0 +1,17 @@
+.btn2{
+    background-color:transparent;
+    height:100rpx;
+    width:13%;
+}
+.btn2::after{
+    border:transparent;
+}
+.cover{
+    position: relative;
+    bottom: 3900rpx;
+
+}
+.button-hover{
+    background-color: rgba(128, 128, 128, 0.568);
+    border-radius: 60%;
+}

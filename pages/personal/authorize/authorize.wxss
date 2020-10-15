@@ -1,0 +1,16 @@
+
+ 
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.eachRow{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    margin-top:50rpx;
+    border: black solid
+}

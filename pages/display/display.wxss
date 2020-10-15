@@ -1,0 +1,38 @@
+.blockBCK{
+    background-color: rgba(110, 179, 156, 0.63);
+    width:250rpx;
+    position: absolute;
+    display: block;
+    height: 98%;
+    top:0;
+}
+.icon{
+    width:40rpx;
+height:40rpx;
+
+}
+.add{
+    display:flex;
+position:absolute;
+bottom:20rpx;
+left:15rpx;
+flex-direction:row;
+width:250rpx;
+justify-content:space-evenly;
+
+
+}
+.modifiedText{
+    display: block;
+    position: absolute;
+    writing-mode:vertical-lr;
+    top:30%;
+    left:35%;
+}
+.tinyText{
+    font-size:35rpx;
+
+}
+.hover{
+    background-color: rgba(243, 237, 237, 0.699);
+}

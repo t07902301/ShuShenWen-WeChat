@@ -1,0 +1,2 @@
+<image src="/images/界面素材/欢迎.jpg"  style="height:100%;width:100%;position:relative;z-index:-1;" mode='widthFix'  />
+<button bind:tap="onTap" style="position:absolute;top:85%;left:35%;" class="bck" hover-class="hover">进入主页</button>

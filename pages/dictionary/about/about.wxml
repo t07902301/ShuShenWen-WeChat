@@ -1,0 +1,22 @@
+<view class="" hover-class="none" hover-stop-propagation="false">
+    <image src="/images/背景.jpg" style="z-index:-1;position:fixed;height:1200rpx;width:750rpx;" mode="widthFix" />
+    
+    <view class="title" selectable="false" space="false" decode="false">
+        {{name}}
+    </view>
+<view class="all" hover-class="none" hover-stop-propagation="false">
+    
+<block  hover-class="none" hover-stop-propagation="false" wx:for="{{gifList}}" wx:key="*this">
+    <view class="each" hover-class="none" hover-stop-propagation="false">
+        <image class="eachImg"  src="http://114.116.0.163/get_pic/{{item.path}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" bind:tap="goBack" >
+        </image>
+        <view class="" selectable="false" space="false" decode="false">
+            {{item.han}}
+        </view>
+    </view>
+    
+</block>
+</view>
+</view>
+
+  

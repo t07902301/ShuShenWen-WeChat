@@ -1,0 +1,14 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 楷体
+}
+.some{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 30rpx;
+    
+}

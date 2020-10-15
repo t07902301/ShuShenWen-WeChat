@@ -1,0 +1,31 @@
+<view class=''>
+    <image src="/images/界面素材/用户界面.jpg" style="z-index=-1;position:fixed;height:1200rpx;width:750rpx;" mode="widthFix" />
+
+      <image src="/images/设置.png"  style="position:relative;width:50rpx;height:50rpx;margin-top:8%;left:5%;"/>
+      <view wx:if="{{name}}"  style='margin-left: 10%'>
+      <!--已有授权直接调用头像信息!-->
+        <!-- <open-data type="userAvatarUrl"  class="name" mode="cover" /> -->
+        <!-- <open-data type="userNickName" lang="zh-CN" /> -->
+        <text class="hello" >{{name}}，你好！~</text>
+        <button bind:tap="exit" class='exit'>退出</button>
+      </view>
+      <view wx:else>
+         <button class="btn" bind:tap="onTap"  style='margin-left: 10%'>
+         <!--login后授权登录-->
+          <image src='/images/登录 用户.png'  class='btnImg'></image> 
+          <view id='status'>未登录</view>
+        </button>
+      </view>
+      <view class="middle" hover-class="none" hover-stop-propagation="false">
+        
+    <navigator url="/pages/personal/collection/collection" class='modifiedText' style='' hover-class="hover" hidden="{{!name}}">我的收藏</navigator>
+    <navigator url="/pages/personal/journey/journey" class='modifiedText row2' style='position:absolute;left:100rpx;bottom:230rpx;' hover-class="hover" hidden="{{!name}}">我的行程</navigator>
+      </view>
+
+    <view class="initialText bottom" style='' >
+      <navigator class='nav' url="" hover-class="hover">引导</navigator>
+      <text  class="nav"style='margin-top:3.5%' bind:tap="emptyBuffer" hover-class="hover">清除缓存</text>
+      <navigator class='nav' url="/pages/personal/advice/advice"style='margin-top:3.5%' hover-class="hover">关于书生文</navigator>
+      <navigator class="nav" style='margin-top:3.5%' hover-class="hover">反馈与建议</navigator>
+    </view>
+</view>

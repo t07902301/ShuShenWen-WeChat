@@ -1,0 +1,19 @@
+    <image src="/images/界面素材/主界面.jpg" style="z-index:-2;position:fixed;height:100%;width:100%" mode="widthFix" />
+   
+   <view class='search'>
+        <input placeholder="  输入汉字伊始搜索....." type='text' placeholder-class='placeHolder' style="height:80rpx;;width:1000rpx;z-index:0;" class="inputText" bindinput='inputBind'></input>
+        <image src="/images/搜索.png" alt="" bindtap='query' style="width: 50rpx; height: 50rpx; right: 15rpx; top: 20px;position: absolute;z-index:0;"/>
+        <!-- <icon type='search' bindtap='query' style='margin-top:5%;'></icon> -->
+      
+    </view>
+    <view class="btn" style='position:absolute; top:50%;margin-left:37%;' >
+        <image src="/images/扫描.png" bindtap='recognize' class="btnImg"/>
+    </view>
+       
+  
+  
+    <view class='statement' style="">
+        <text style='margin-bottom:10px'>鸥去昔游非。</text>
+        <text style='margin-bottom:10px'>遥怜花可可，梦依依</text>
+        <text >九疑云杳断魂啼，相思血，都沁绿筠枝。</text>
+    </view>

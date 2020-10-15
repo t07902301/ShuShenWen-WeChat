@@ -1,0 +1,81 @@
+<image style="z-index=-1" src="/images/朝代字典.jpg" mode="widthFix" style='width:100%;'/>
+<view  class="cover">
+
+    <button class="btn2" hover-class="button-hover" id='夏' bindtap="onTap" style='position:relative;left:3.5%;'>
+        
+    </button>
+    
+
+    <button class="btn2" hover-class="button-hover" id='商' bindtap="onTap" style='position:relative;left:7%;top:115rpx'>
+        
+    </button>
+
+
+    <button class="btn2" hover-class="button-hover" id='周' bindtap="onTap" style='position:relative;right:5%;top:225rpx'>
+        
+    </button>
+
+
+
+    <button class="btn2" hover-class="button-hover" id='春' bindtap="onTap" style='position:relative;left:3%;top:330rpx;'>
+        
+    </button>
+    
+
+    <button class="btn2" hover-class="button-hover" id='秦' bindtap="onTap" style='position:relative;left:8%;top:440rpx;'>
+        
+    </button>
+
+
+    <button class="btn2" hover-class="button-hover" id='汉' bindtap="onTap" style='position:relative;top:550rpx;right:2%;'>
+        
+    </button>
+
+    <button class="btn2" hover-class="button-hover" id='三' bindtap="onTap" style="right:10%;top:660rpx;">
+        
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:770rpx;'id='晋' bindtap="onTap">
+        
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:875rpx;left:20rpx;'id='南' bindtap="onTap">
+        
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:985rpx;right:70rpx;'id='隋' bindtap="onTap">
+        
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:1090rpx;right:25rpx;'id='唐' bindtap="onTap">
+        
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:1200rpx;left:55rpx;'id='五' bindtap="onTap">
+        
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:1310rpx;left:60rpx;'id='宋' bindtap="onTap">
+        
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:1420rpx;right:15rpx;'id='元' bindtap="onTap">
+        
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:1525rpx;left:65rpx;'id='明' bindtap="onTap">
+        
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:1635rpx;left:100rpx;'id='清' bindtap="onTap">
+       
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:1740rpx;left:1%;'id='民' bindtap="onTap">
+       
+    </button>
+
+     <button class="btn2" hover-class="button-hover" style='position:relative;top:1850rpx;right:25rpx;'id='中' bindtap="onTap">
+        
+    </button>
+</view>

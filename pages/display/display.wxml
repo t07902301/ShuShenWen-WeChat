@@ -1,0 +1,22 @@
+<view  style="position:relative;margin-bottom:3%" >
+    <image src="/images/仙境春长图.jpg"style="z-idex=-1;height:500rpx;width:100%" />
+    <view class='blockBCK' bind:tap="addTocalendar">
+        <text class='modifiedText' style='font-size:50rpx;color:white'>{{item.title}}</text>
+        <view class='add' hover-class="hover">
+         <image src="/images/加入.png" class='icon' />
+        <text style='color: white;font-family: 楷体;'>加入行程</text>
+        </view>
+       
+    </view>
+</view>
+<view  style="position:relative;margin-bottom:3%" >
+    <image src="/images/欧阳询.jpg"style="z-idex=-1;height:500rpx;width:100%" />
+    <view class='blockBCK' bind:tap="addTocalendar">
+        <text class='modifiedText' style='font-size:50rpx;color:white'>{{item.title}}</text>
+        <view class='add' hover-class="hover">
+         <image src="/images/加入.png" class='icon' />
+        <text style='color: white;font-family: 楷体;'>加入行程</text>
+        </view>
+       
+    </view>
+</view>

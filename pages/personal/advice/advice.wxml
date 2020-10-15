@@ -1,0 +1,24 @@
+<view class="all" hover-class="none" hover-stop-propagation="false">
+    <image src="/images/背景.jpg" style="z-index:-1;position:fixed;height:1200rpx;width:750rpx;" mode="widthFix" />
+
+    <view  class="all">
+        <image class="" src="/images/图标.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" style="width: 400rpx;height: 400rpx;">
+            
+        </image>
+        <text class="" selectable="false" space="false" decode="false">
+            书生文 V1.0.1 beta
+        </text>
+    </view>
+    <view class='some'>简介：</view>
+    <view >
+    书生文是一款针对古汉字传统文化而开发的微信小程序。其数据库中包含甲骨文、金文、篆文、隶书等多种字型，系统地展示了现代汉字的释义、来源和字型演变的全过程。</view>
+    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-bottom: 20px;">
+     
+    为方便用户多样化的使用场景，产品以基于CNN图像识别的扫描搜索为核心，加入了用户中心、朝代字典、国艺专展三个模块。意在丰富用户对于传统汉字文化认知的体验，提供给用户符合文化内涵需求的产品，满足相关文化部门与文创机构对于传统文化宣传的需求等。</view>
+    <view class='some'>功能详细介绍</view>
+    <view class='some'>微信小程序：书生文</view>
+    <view class='some' >用户交流群：725585849</view>
+    <view class='some'>建议与反馈：ww.fzu.edu@gmail.com</view>
+
+</view>
+  

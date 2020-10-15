@@ -1,0 +1,27 @@
+.each{
+    width:calc(100%/4);
+    height:260rpx;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:50rpx;
+    
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.eachImg{
+    width:80rpx;
+    height:180rpx;
+    
+}
+.title{
+    text-align: center;
+    font-size:50rpx;
+margin-bottom:50rpx;
+
+}

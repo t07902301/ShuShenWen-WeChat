@@ -1,0 +1,5 @@
+.bck{
+    background-color: transparent;
+    border: rgba(128, 128, 128, 0.781), solid;
+}
+

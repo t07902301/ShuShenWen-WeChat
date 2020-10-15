@@ -1,0 +1,40 @@
+.search{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-top:20px;
+  margin-top:20px;
+
+}
+
+.inputText{
+background-color: rgba(250, 249, 249, 0.555);
+margin-top: 5%;
+border-radius: 100rpx;
+}
+.placeHolder{
+  color:rgba(49, 47, 47, 0.397);
+  font-weight: lighter;
+  font-size: 35rpx;
+  /* letter-spacing: 10rpx; */
+  font-family: DFKai-SB;
+
+}
+.statement{
+  
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  align-items: center;
+  left:23%;
+  top:75%;
+  justify-content: space-around;
+  /* letter-spacing: 10rpx; */
+  font-size: 25rpx;
+  font-family: DFKai-SB;
+}

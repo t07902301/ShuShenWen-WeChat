@@ -1,0 +1,35 @@
+<view class="above" hover-class="none" hover-stop-propagation="false">
+    <image class="" src="{{source}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+        
+    </image>
+    <text class="" selectable="false" space="false" decode="false">
+        {{name}}
+    </text>
+</view>
+  <view class="" hover-class="none" hover-stop-propagation="false">
+      <view class="" hover-class="none" hover-stop-propagation="false">
+    汉字：{{globalData.data.result.zi}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    拼音：{{globalData.data.result.pinyin}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    部首：{{globalData.data.result.bushou}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    笔画共有{{globalData.data.result.bihua}}划
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    <text class="" selectable="false" space="false" decode="false">
+    详解：
+    </text>
+    <view class="" hover-class="none" hover-stop-propagation="false" wx:for="{{globalData.data.result.xiangjie}}" >
+        
+        <view class="" hover-class="none" hover-stop-propagation="false" wx:if="{{index<40}}">
+            {{item}}
+            
+        </view>
+    </view>
+  
+</view>
+  </view>

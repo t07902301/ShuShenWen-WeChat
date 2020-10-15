@@ -1,0 +1,33 @@
+/* pages/home/home/more/more.wxss */
+.frame{
+    border: black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:500rpx;
+margin-left:90rpx;
+border-radius:80rpx;
+
+}
+.subFrame{
+    display: flex;
+    flex-direction: row;
+    margin-left:20rpx;
+width:100rpx;
+justify-content: space-around;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    color:black;
+background-color:transparent;
+border:transparent;
+font-size: 40rpx;
+}
+view{
+    font-family: 楷体;
+}

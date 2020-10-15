@@ -1,0 +1,48 @@
+<!-- pages/home/home/more/more.wxml
+<block wx:for="{{globalData}}">
+<view class="" hover-class="none" hover-stop-propagation="false">
+    
+</view>
+</block> -->
+<view class="" hover-class="none" hover-stop-propagation="false">
+    <image src="/images/背景.jpg" style="z-index:-1;position:fixed;height:1200rpx;width:750rpx;" mode="widthFix" />
+    
+<view class="top" hover-class="none" hover-stop-propagation="false">
+    <view class="frame" hover-class="none" hover-stop-propagation="false" >
+    <view class="subFrame" hover-class="none" hover-stop-propagation="false">
+        <image src="/images/搜索.png" alt="" bindtap='query' style="width:20px;height:20px"/>
+        <view class="" selectable="false" space="false" decode="false">
+            {{globalData.data.result.zi}}
+        </view>
+    </view>
+        
+</view>
+<button bindtap='goBack' class='btn'>确定</button>
+</view>
+
+<view class="" hover-class="none" hover-stop-propagation="false">
+    汉字：{{globalData.data.result.zi}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    拼音：{{globalData.data.result.pinyin}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    部首：{{globalData.data.result.bushou}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    笔画共有{{globalData.data.result.bihua}}划
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    <text class="" selectable="false" space="false" decode="false">
+    详解：
+    </text>
+    <view class="" hover-class="none" hover-stop-propagation="false" wx:for="{{globalData.data.result.xiangjie}}" >
+        
+        <view class="" hover-class="none" hover-stop-propagation="false" wx:if="{{index<40}}">
+            {{item}}
+            
+        </view>
+    </view>
+  
+</view>
+</view>

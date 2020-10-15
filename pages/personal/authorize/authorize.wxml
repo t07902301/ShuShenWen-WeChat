@@ -1,0 +1,47 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+    <view class="content" hover-class="none" hover-stop-propagation="false">
+        
+    <view class='eachRow'>
+        <text class="" selectable="false" space="false" decode="false">
+            用户名：
+        </text>
+        <input type="text" bindinput="name"></input>
+    </view>
+    <view  class="eachRow">
+        <text class="" selectable="false" space="false" decode="false">
+            邮箱：
+        </text>
+        <input type="text" bindinput="mail"></input>
+    </view>
+    <view class='eachRow'>
+        <text class="" selectable="false" space="false" decode="false">
+            密码:
+        </text>
+        <input type="text" password='true' bindinput="pwd"></input>
+    </view>
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        <button bind:tap="register">注册</button>
+    </view>
+    </view>
+    <view class="content" hover-class="none" hover-stop-propagation="false">
+        <view class='eachRow'>
+            <text class="" selectable="false" space="false" decode="false">
+                邮箱：
+            </text>
+        <input type="text" bindinput="mail"></input>
+           
+        </view>
+        <view class='eachRow'>
+            <text class="" selectable="false" space="false" decode="false">
+                密码：
+            </text>
+        <input type="text" password='true' bindinput="pwd"></input>
+            
+        </view>
+      
+        <view >
+            <button bind:tap="login">登录</button>
+        </view>
+        
+    </view>
+</view>
