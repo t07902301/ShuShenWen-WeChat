@@ -1,0 +1,38 @@
+/**app.wxss**/
+page{
+  width: 100%;
+  height: 100%;
+}
+.btn{
+  width: 200rpx; 
+  height:200rpx;
+  background-color:transparent;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+ 
+  
+}
+.btn::after{
+  border: 0ch;
+}
+.btnImg {
+  width: 50rpx;
+  height: 50rpx;
+}
+.modifiedText{
+  display: block;
+  position: relative;
+  writing-mode:vertical-lr;
+  font-family: DFKai-SB;
+  letter-spacing: 20rpx;
+  font-size: 30rpx;
+}
+
+.hover{
+  color: rgba(200, 194, 206, 0.925);
+}
