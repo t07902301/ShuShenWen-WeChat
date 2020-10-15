@@ -1,0 +1,78 @@
+{
+  "pages":[
+    "pages/home/home",
+
+    "pages/personal/personal",
+
+    "pages/personal/authorize/authorize",
+
+    "pages/home/introduction/introduction",
+
+
+
+    "pages/display/display",
+
+
+
+    "pages/dictionary/dictionary",
+
+
+"pages/home/more/more",
+    
+    "pages/welcome/welcome",
+    
+
+
+
+    
+    
+    "pages/personal/collection/collection",
+    "pages/dictionary/about/about",
+    "pages/personal/journey/journey",
+    "pages/personal/advice/advice"
+  ],
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "",
+    "backgroundColor": "#ffff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "selectedIconPath": "images/主页.png",
+
+        "iconPath": "images/主页.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "selectedIconPath": "images/个人中心.png",
+
+        "iconPath": "images/个人中心.png" 
+      },
+      {
+        "pagePath": "pages/dictionary/dictionary",
+        "text": "朝代字典",
+        "selectedIconPath": "images/dic.png",
+
+        "iconPath": "images/dic.png" 
+      },
+      {
+        "pagePath": "pages/display/display",
+        "text": "国艺专展",
+        "selectedIconPath": "images/dplay.png",
+
+        "iconPath": "images/dplay.png" 
+      }
+    ]
+  },
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "书生文",
+    "navigationBarTextStyle":"black"
+  }
+}
